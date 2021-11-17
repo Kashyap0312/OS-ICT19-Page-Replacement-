@@ -1,0 +1,57 @@
+.container {
+    padding: 20px 0 0 1vw;
+    font-size: 32px;
+}
+
+#q1,
+#q2 {
+    margin: 5vw;
+}
+
+body {
+    background-color: #e4e0e0;
+}
+
+.input-1 {
+    outline: none;
+    border: none;
+    vertical-align: middle;
+    width: 10vw;
+    border-bottom: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 4px 4px 15px black;
+}
+
+.lab {
+    color: #000000;
+    font-family: cursive;
+    border-radius: 10px;
+    box-shadow: 13px 11px 20px black;
+    margin-right: 2vw;
+    padding: 0.5vh;
+    background-color: whitesmoke;
+    font-size: 3vw;
+}
+
+#btn {
+    width: 25%;
+    background-color: black;
+    color: white;
+    margin: 11px;
+    text-align: center;
+    margin-left: 35vw;
+    box-shadow: 5px 5px 15px #000000;
+    font-size: 2vw;
+    font-family: cursive;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 40px;
+}
+
+#btn:hover {
+    font-size: 2.1vw;
+}
+
+#inputs {
+    width: 20vw;
+}

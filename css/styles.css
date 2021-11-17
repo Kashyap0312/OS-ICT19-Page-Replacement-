@@ -1,0 +1,195 @@
+.ospic1 {
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+.title {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 4.2rem;
+  padding-left: 25%;
+}
+.row-algo {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.fifo {
+  width: 35%;
+  margin-right: 30px;
+  float: left;
+}
+
+.Opr {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 100%;
+}
+
+.Lru {
+  width: 35%;
+  margin-right: 30px;
+  float: left;
+  border-radius: 100%;
+}
+#mid {
+  text-align: center;
+  padding: 5% 0 5% 0;
+}
+h2 {
+  font-weight: bolder;
+}
+hr {
+  background-color: white;
+  border-style: none;
+  border-top-style: dotted;
+  width: 15%;
+  border-width: 12px;
+  border-color: #66bfbf;
+  margin: 100px auto;
+}
+#last {
+  background-color: #fbf4e9;
+  text-align: center;
+  padding: 3% 4%;
+}
+
+.fc1 {
+  margin-top: 90px;
+  text-align: center;
+}
+.fifop {
+  line-height: 1.5;
+  padding: 0 20%;
+}
+.h3exa {
+  text-align: left;
+  margin-left: 100px;
+}
+.point {
+  margin-right: 3px;
+  font-size: 20px;
+}
+.ulfifo {
+  text-align: left;
+  padding-left: 23%;
+}
+
+.extpadd {
+  padding-top: 100px;
+}
+
+.btnRun {
+  background-color: #66bfbf;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 20px;
+  border-color: transparent;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.btnRun:hover {
+  font-weight: 900;
+  border-radius: 60px;
+  font-family: cursive;
+}
+
+.subHead00:hover {
+  font-weight: 1000;
+  color: gold;
+}
+
+.mainFullbg {
+  background-color: #fef5ed;
+  height: 100vh;
+}
+.runHead {
+  margin-left: 20px;
+  color: black;
+  text-decoration: underline;
+  padding-bottom: 40px;
+}
+.runHead:hover {
+  font-weight: 1000;
+  color: gold;
+}
+
+.input010 {
+  padding: 5px 0 10px 30px;
+  font-size: 20px;
+}
+
+.input010:hover {
+  font-size: 25px;
+  color: #1c0c5b;
+  font-family: cursive;
+}
+
+input {
+  border-radius: 20px;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  font-family: sans-serif;
+  border-style: solid;
+  background-color: #d7e9f7;
+}
+
+.btnxyz {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: red;
+  background-color: gray;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 20px;
+  color: white;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-weight: bold;
+}
+
+.btnxyz:hover {
+  font-weight: 1100;
+  font-family: cursive;
+}
+
+.replce01 {
+  padding: 5px 0 10px 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.replce01:hover {
+  font-size: 25px;
+  color: #1c0c5b;
+  font-family: cursive;
+  font-weight: 900;
+}
+
+.set01{
+  font-weight: 500 bold;
+  text-decoration:underline;
+}
+.set01:hover {
+  font-size: 25px;
+  color: #1c0c5b;
+  font-family: cursive;
+  font-weight: 900;
+}
+
+.graphbg{
+  background-color:#EDF6E5;
+  height: 100vh;
+  width: 100vw;
+  margin-bottom: 100px;
+}

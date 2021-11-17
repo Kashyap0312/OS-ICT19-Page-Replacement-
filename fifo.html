@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Java query for Navbar -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <!-- Font awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <!-- external css -->
+  <link rel="stylesheet" href="css/styles.css">
+  <title>FIFO</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">     
+        Page Replacement > FIFO
+      </a>
+    </div>
+  </nav>
+
+  <section class="fc1" id="fi1">
+    <h2 class="subHead00">FIFO-First In First Out:</h2>
+    
+    <br>
+    <p class="fifop">In an operating system, memory management is a crucial topic. It provides ways to dynamically control and coordinate computer memory. Memory management allows allocating a portion of memory when requested by a program. It also
+      automatically deallocates memory from a program when it is no longer used by a program.</p>
+    <br>
+    <p class="fifop"> There are various techniques used in memory management. One such method is paging. In paging, page replacement algorithms play an important role and decide which page to keep in the main memory when a new page comes in. </p>
+    <a href="fifo02.html">
+    <button class="btnRun">Simulation</button>
+    </a>
+    <br>
+    <a href="FIFO_Graph.html">
+      <button class="btnRun">Graph</button>
+      </a>
+
+    <hr>
+    <h3 class="h3exa">Example:</h3>
+    <p class="fifop"> <span class="point">•</span>Consider page reference string 1, 3, 0, 3, 5, 6 with 3 page frames.Find number of page faults. </p>
+    <img src="fifoss.png" alt="">
+
+
+    <ul class="ulfifo">
+      <li>Initially all slots are empty, so when 1, 3, 0 came they are allocated to the empty slots —> 3 Page Faults.</li>
+      <li>when 3 comes, it is already in memory so —> 0 Page Faults. </li>
+      <li>Then 5 comes, it is not available in memory so it replaces the oldest page slot i.e 1. —>1 Page Fault. </li>
+      <li>6 comes, it is also not available in memory so it replaces the oldest page slot i.e 3 —>1 Page Fault. </li>
+      <li>Finally when 3 come it is not available so it replaces 0 1 page fault.</li>
+    </ul>
+
+    <hr>
+
+    <section class="ulfifo">
+      <h3>Advantage:</h3>
+      <ul>
+        <li>Simple and easy to implement.</li>
+        <li>Low overhead.</li>
+      </ul>
+      <br>
+      <h3>Disadvantage:</h3>
+      <ul>
+        <li>Poor performance.</li>
+        <li>Doesn’t consider the frequency of use or last used time, simply replaces the oldest page.</li>
+        <li>Suffers from Belady’s Anomaly(i.e. more page faults when we increase the number of page frames).</li>
+      </ul>
+
+
+    </section>
+    <hr>
+
+
+
+
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+  <footer id="last">
+    <h2>Virtual project created by:</h2>
+
+    <p>Kashyap Barot(19BIT059) | Aditya Bhatt(19BIT007) | Abhi Patel(19BIT003)</p>
+    <p>Darshit(19BIT023) | Dax(19BIT024) | Devdutt(19BIT027)</p>
+  </footer>
+
+
+</body>
+
+</html>

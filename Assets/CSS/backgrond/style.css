@@ -1,0 +1,373 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body {
+        background-image: url("wallpaper.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #se {
+        padding: 0 0 5% 0;
+    }
+    
+    #main {
+        font-size: 21px;
+        line-height: 32px;
+        color: white;
+        margin: 0;
+        padding: 0;
+        background-size: 100% 50%;
+    }
+    
+    #container {
+        margin: 0 auto;
+        background-color: black;
+    }
+    
+    h2:hover {
+        background-color: rgb(9, 253, 253);
+        color: black;
+        padding: 5px;
+        border-radius: 12px;
+        box-shadow: 4px 8px 8px rgb(0, 0, 0);
+        font-size: 3.2vw;
+    }
+    
+    .ex {
+        text-align: left;
+        margin: 1%;
+        margin-left: 3%;
+        font-size: 1.5vw;
+        list-style-image: radial-gradient( cyan 40%, black 1%);
+    }
+    
+    h2 {
+        margin: 40px;
+        display: inline-block;
+        text-align: center;
+        background-color: rgb(126, 255, 255);
+        color: black;
+        box-shadow: 4px 8px 8px rgb(0, 0, 0);
+        border-radius: 10px;
+        font-size: 3.1vw;
+        padding: 3px;
+    }
+    
+    #m {
+        margin-left: 22%;
+        margin-bottom: 10%;
+        border: 1px solid rgb(0, 0, 0);
+    }
+    
+    #question2 {
+        margin-left: 10%;
+        font-size: 1.5vw;
+    }
+    
+    #canvas {
+        background-color: #2c343f;
+        width: 100%;
+        height: 35vw;
+        cursor: none;
+    }
+    
+    #c {
+        width: 60px;
+        height: 40px;
+        vertical-align: middle;
+    }
+    
+    #d {
+        width: 50px;
+        height: 35px;
+        vertical-align: middle;
+    }
+    
+    #f {
+        width: 50px;
+        height: 35px;
+        vertical-align: middle;
+    }
+    
+    .q {
+        text-decoration: none;
+        color: #2600ff;
+        font-size: 2.5vw;
+    }
+    
+    .q:hover {
+        text-decoration: underline;
+        color: #0072ff;
+        font-size: 2.8vw;
+    }
+    
+    .Reference {
+        text-decoration: none;
+        color: #2600ff;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2.2vw;
+    }
+    
+    .Reference:hover {
+        text-decoration: underline;
+        color: #000000;
+        font-size: 2.4vw;
+    }
+    
+     ::-webkit-scrollbar {
+        width: 13px;
+    }
+    
+     ::-webkit-scrollbar-track {
+        box-shadow: inset 6px 6px 17px 1px black;
+    }
+    
+     ::-webkit-scrollbar-thumb {
+        background: #0288d1;
+        border-radius: 3px;
+    }
+    
+     ::-webkit-scrollbar-thumb:hover {
+        background: #00659b;
+    }
+    
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        z-index: 99;
+        font-size: 20px;
+        border: 1px solid rgb(255, 255, 255);
+        outline: none;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 50%;
+    }
+    
+    #dark {
+        position: fixed;
+        bottom: 70px;
+        right: 5px;
+        z-index: 99;
+        font-size:x-large;
+        border: 1px solid rgb(255, 255, 255);
+        outline: none;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 100%;
+    }
+    
+    #myBtn:hover {
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .up {
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+    }
+    
+    #submit {
+        width: 25%;
+        background-color: black;
+        color: white;
+        margin: 11px;
+        margin-bottom: 1vw;
+        text-align: center;
+        margin-left: 35vw;
+        box-shadow: 5px 5px 15px #000000;
+        font-size: 2vw;
+        font-family: cursive;
+        padding: 10px;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 40px;
+    }
+    
+    #submit:hover {
+        font-size: 2.1vw;
+    
+    }
+    
+    .dark-mode {
+        background: none;
+        background-color: #262626;
+        color: whitesmoke;
+    }
+    
+    #dark {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+    
+    .Reference:hover {
+        color: rgb(11, 145, 255);
+    }
+    
+    #algo {
+        color: #000000;
+        width: 100%;
+    }
+    
+    .container {
+        color: rgb(0, 0, 0);
+        padding: 2vw 1vw 1px 0vw;
+        font-size: 4vw;
+    }
+    
+    .input:hover,
+    .input:visited,
+    .input::after {
+        border: none;
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        box-shadow: -4px -5px 7px black;
+        border-radius: 9px 0px 44px 0px;
+        outline: none;
+    }
+    
+    tr,
+    td {
+        border: 1px solid black;
+    }
+    
+    tr {
+        background-color: aqua;
+    }
+    
+    td {
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        font-size: 1vw;
+    }
+    
+    .responsive {
+        background-color: aliceblue;
+        width: 85%;
+        height: auto;
+        margin: 2.3vw 3vw 2.7vw 10vw;
+        max-width: 85%;
+    }
+    
+    #summary {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 3vw;
+        color: #000000;
+        margin-left: 30vw;
+        padding: 4vw;
+    }
+    
+    #table {
+        width: 100%;
+    }
+    
+    .input {
+        width: 20%;
+        cursor: pointer;
+        color: #000000;
+        border: 1px;
+        margin: 2vw 0px 1.5vw 1vw;
+        border-right: 5px solid black;
+        border-bottom: 3px solid black;
+        box-shadow: 8px 11px 15px black;
+        border-radius: 7px;
+        padding: 4px;
+        vertical-align: middle;
+    }
+    
+    .btn {
+        background-color: #0288d1;
+        color: black;
+        padding: 1vw;
+        margin: 7vw;
+        text-decoration: none;
+        border: 1px solid rgb(0 0 0 / 15%);
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 5px;
+        box-shadow: -.9vw .9vw 1vw 0px #000000;
+        font-size: 2vw;
+        font-family: cursive;
+    }
+    
+    .btn:hover {
+        font-size: 2.1vw;
+
+    }
+    
+    #gave_ma {
+        margin-top: 7vw;
+    }
+    
+    .l {
+        box-shadow: 4px 10px 10px black;
+        margin: 30px;
+        border: 3px solid;
+        border-radius: 1.5vw;
+        padding-left: 2vw;
+    }
+    
+    .backco {
+        background-color: white;
+        margin: 25px;
+    }
+    
+    #fs {
+        margin-left: 28vw;
+    }
+    
+    @media screen and (max-width: 600px) {
+        .ex,
+        #question2,
+        .btn {
+            font-size: 3.7vw;
+        }
+        .btn:hover,
+        .Reference:hover {
+            font-size: 3.9vw;
+        }
+        .q {
+            font-size: 4.1vw;
+        }
+        .q:hover {
+            font-size: 4.3vw;
+        }
+        .Reference {
+            font-size: 3.7vw;
+        }
+        h2 {
+            font-size: 4.5vw;
+        }
+        h2:hover {
+            font-size: 4.7vw;
+        }
+    }
+    
+    @media screen and (max-width: 970px) and (min-width: 700px) {
+        #myBtn {
+            font-size: 4vw;
+        }
+        #dark {
+            font-size: 2.5vw;
+        }
+    }
+    
+    @media screen and (max-width: 600px) and (min-width: 360px) {
+        #myBtn {
+            font-size: 4.5vw;
+            bottom: 6px;
+            right: 10px;
+        }
+        #dark {
+            font-size: 3.5vw;
+            bottom: 15vw;
+        }
+    }
