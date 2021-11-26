@@ -1,5 +1,5 @@
 
-`                         `**Read Me File [Team – 17]** 
+`                         
 
 ![](Aspose.Words.b96825cd-2cbe-4fdd-a188-03fbddd333db.001.png)
 
